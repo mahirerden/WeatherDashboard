@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+     <!-- Required meta tags -->
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+     <!-- Bootstrap CSS -->
+     <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+          integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/css/bootstrap.min.css"
+          integrity="sha384-SI27wrMjH3ZZ89r4o+fGIJtnzkAnFs3E4qz9DIYioCQ5l9Rd/7UAa8DHcaL8jkWt" crossorigin="anonymous">
+     <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+     <title>Weather Dashboard</title>
+</head>
+
+<body>
+     <div class="container">
+          <div class="row">
+               <div class="col md-12" id="header">
+                    <h1><strong>Weather Dashboard</strong></h1>
+               </div>
+          </div>
+          <div class="row">
+               <div class="col-md-3">
+                    <label class="mt-4" for="form-control" ><strong>Search for a City</strong></label>
+                    <input id="search" class="form-control" name="form-control">
+                    <button id="searchBtn" class="fas fa-search-plus bg-primary p-2"></button>
+                    <div class="card mt-4">
+                         <div class="card-header">
+                              Seach History
+                         </div>
+                         <div>
+                              <ul class="list-group list-group-flush">
+                                   <li class="list-group-item">Aaaaaaaaa</li>
+                                   <li class="list-group-item">Bbbbbbbbbb</li>
+                                   <li class="list-group-item">Cccccccccc</li>
+                                   <li class="list-group-item">Cccccccccc</li>
+                                   <li class="list-group-item">Cccccccccc</li>
+                                   <li class="list-group-item">Cccccccccc</li>
+                                   <li class="list-group-item">Cccccccccc</li>
+                              </ul>
+                         </div>
+                    </div>
+               </div>
+               <div class="col-md-9">
+                    <div class="row">
+                         <div class="col-12">
+                              <div class="card mt-2">
+                                   <div class="card-header">
+                                        <h1><span id="cityName">Atlanta (8/5/2019)</span>  <img id="cityImg" src="#"></h1>
+                                   </div>
+                                   <div class="card-body">
+                                        <p id="temp" class="city">Temperature: 90.9 F</p>
+                                        <p id="humidity" class="city">Humidity: 41%</p>
+                                        <p id="windSpeed" class="city">Wind Speed: 4.7 MPH</p>
+                                        <p id="UVIndex" class="city">UV Index: 9.49</p>
+                                   </div>
+                              </div>
+                         </div>
+                    </div>
+                    <div class="row">
+                         <div class="col-12">
+                              <p id="forecast" class="h2 ml-4"><strong>5-Day Forecast:</strong></p>
+                              <div class="card-deck ml-1">
+                                   <div class="card bg-primary">
+                                        <div class="card-body text-center">
+                                             <p class="card-text font-weight-bold">16/8/2019</p>
+                                             <img src="#">
+                                             <p>Temp: 86.7F</p>
+                                             <p>Humidity: 40%</p>
+                                        </div>
+                                   </div>
+                                   <div class="card bg-primary">
+                                        <div class="card-body text-center">
+                                             <p class="card-text font-weight-bold">16/8/2019</p>
+                                             <img src="#">
+                                             <p>Temp: 86.7F</p>
+                                             <p>Humidity: 40%</p>
+                                        </div>
+                                   </div>
+                                   <div class="card bg-primary">
+                                        <div class="card-body text-center">
+                                             <p class="card-text font-weight-bold">16/8/2019</p>
+                                             <img src="#">
+                                             <p>Temp: 86.7F</p>
+                                             <p>Humidity: 40%</p>
+                                        </div>
+                                   </div>
+                                   <div class="card bg-primary">
+                                        <div class="card-body text-center">
+                                             <p class="card-text font-weight-bold">16/8/2019</p>
+                                             <img src="#">
+                                             <p>Temp: 86.7F</p>
+                                             <p>Humidity: 40%</p>
+                                        </div>
+                                   </div>
+                                   <div class="card bg-primary">
+                                        <div class="card-body text-center">
+                                             <p class="card-text font-weight-bold">16/8/2019</p>
+                                             <img src="#">
+                                             <p>Temp: 86.7F</p>
+                                             <p>Humidity: 40%</p>
+                                        </div>
+                                   </div>
+                              </div>
+                         </div>
+                    </div>
+               </div>
+          </div>
+     </div>
+
+
+     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+     <!-- <script type="text/javascript" src="./assets/js/geolocation.js"></script> -->
+     <script type="text/javascript" src="./assets/js/script.js"></script> -->
+
+     <!-- Optional JavaScript -->
+     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+          integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+          crossorigin="anonymous"></script>
+     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/js/bootstrap.min.js"
+          integrity="sha384-3qaqj0lc6sV/qpzrc1N5DC6i1VRn/HyX4qdPaiEFbn54VjQBEU341pvjz7Dv3n6P"
+          crossorigin="anonymous"></script>
+
+</body>
+
+</html>
