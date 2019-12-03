@@ -16,19 +16,62 @@ body {
      padding-top: 10px;
 }
 
+#card-header2{
+     height: 70px;
+}
+
 #cityImg{
-     background-color:darkgrey;
+     background-color:darkorange;
      border-radius: 50%;
      width: 50px;
      height: 50px;
+}
+
+.forecastImg{
+     background-color:darkorange;
+     border-radius: 50%;
+     padding-top: 0px;
+     width: 40px;
+     height: 40px; 
+}
+
+.card-text{
+     font-size: 150%;
+     padding-top: 1px;
 }
 
 #cityName{
      text-transform: capitalize;
 }
 
-.city{
-     font-size: 120%;
+#search{
+     text-transform: capitalize;
 }
+
+.city{
+     font-size: 140%;
+}
+
+#cardBody{
+     height: 180px;
+     padding-top: 10px;
+}
+
+.cardBody{
+     height: 175px;
+     padding-top: 10px;
+     background-color: deepskyblue;
+}
+
+.forecast{
+     font-weight: bolder;
+     font-size: 13px;
+}
+
+#search{
+     width: 200px;
+}
+
+
 
 
